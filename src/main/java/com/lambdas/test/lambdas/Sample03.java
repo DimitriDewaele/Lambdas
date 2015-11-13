@@ -41,7 +41,7 @@ public class Sample03 {
         numbers.forEach(value -> System.out.println(value));
 
         // Call the class with its function - needs double ::
-        System.out.println("With Lambda - Function Call");
+        System.out.println("With Lambda - Function Call or method reference");
         numbers.forEach(System.out::println);
     }
 }
