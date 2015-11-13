@@ -2,7 +2,7 @@ package com.lambdas.test.lambdas;
 
 import java.util.*;
 
-public class Sample {
+public class Sample02 {
 
     private static int count = 1;
 
@@ -10,7 +10,9 @@ public class Sample {
 
         Thread th;
         
-        //Anonymous inber function has 4 things:
+        /* a01: High Ceremony - A thread*/
+        
+        //Anonymous inner function has 4 things:
             //1. name - anonymous
             //2. parameter list
             //3. body
@@ -24,6 +26,8 @@ public class Sample {
         });
         th.start();
 
+        /* a02: Just the Essence - A Lambda*/
+        
         // WITH Lambda
         th = new Thread(() -> System.out.println("In thread " + count++));
         th.start();
