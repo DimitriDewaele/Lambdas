@@ -1,3 +1,5 @@
+package com.lambdas.test.lambdas;
+
 import java.util.*;
 
 public class Sample {
