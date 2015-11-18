@@ -1,4 +1,4 @@
-package com.lambdas.test.lambdas;
+package com.lambdas;
 
 import java.util.*;
 import java.util.function.Consumer;
@@ -9,6 +9,8 @@ public class Sample05 {
       
     List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
 
+    /* a05: Function composition */
+    
     //given the values, double the even numbers and total.
     
     int result = 0;

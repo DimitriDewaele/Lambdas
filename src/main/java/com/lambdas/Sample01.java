@@ -1,4 +1,4 @@
-package com.lambdas.test.lambdas;
+package com.lambdas;
 
 import java.util.*;
 
@@ -27,5 +27,8 @@ public class Sample01 {
         th.start();
 
         System.out.println("In main");
+        
+        // Build with maven
+        // Run from commandline: java -cp target\Lambdas-1.0-SNAPSHOT.jar com.lambdas.Sample01
     }
 }
