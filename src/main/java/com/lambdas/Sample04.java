@@ -1,4 +1,4 @@
-package com.lambdas.test.lambdas;
+package com.lambdas;
 
 import java.util.*;
 import java.util.function.Consumer;
@@ -8,6 +8,8 @@ public class Sample04 {
     public static void main(String[] args) {
         List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
 
+        /* a04: References different options */
+        
         System.out.println("Lambda - Parameter as an argument for method");
         numbers.forEach(e -> System.out.println(e));
 

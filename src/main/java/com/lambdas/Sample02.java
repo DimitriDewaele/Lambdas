@@ -1,4 +1,4 @@
-package com.lambdas.test.lambdas;
+package com.lambdas;
 
 import java.util.*;
 
