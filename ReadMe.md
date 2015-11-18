@@ -22,7 +22,7 @@ Code Samples
   -   ✓two parameters, one as target the other as an arguemnt
 - ✓Function Composition (a05)
 - ✓An example
-- ✓Parallelizing it
+- ✓Parallelizing it (a06)
 - ✓Lambdas are cool, but streams are awesome
 - ✓Stream as abstraction
 - ✓Non mutating pipeline
